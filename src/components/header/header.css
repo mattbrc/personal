@@ -1,4 +1,4 @@
-header {
+/* header {
   display: flex;
   background: white;
   border-bottom: 10px solid var(--qwik-dark-purple);
@@ -31,4 +31,4 @@ header li a {
 
 header li a:hover {
   text-decoration: underline;
-}
+} */

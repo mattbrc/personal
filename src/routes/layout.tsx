@@ -1,18 +1,14 @@
 import { component$, Slot } from '@builder.io/qwik';
-import Header from '../components/header/header';
 
 export default component$(() => {
   return (
-    <>
+    <div>
       <main>
-        <Header />
-        <section>
-          <Slot />
-        </section>
+        <Slot />
       </main>
-      <footer>
-        <p>Made by Matt | 2023</p>
+      <footer class="pt-[16rem]">
+        <p class="text-zinc-100">Made by Matt | 2023</p>
       </footer>
-    </>
+    </div>
   );
 });

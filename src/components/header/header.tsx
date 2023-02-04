@@ -1,34 +1,14 @@
-import { component$, useStylesScoped$ } from '@builder.io/qwik';
-import { QwikLogo } from '../icons/qwik';
-import styles from './header.css?inline';
+import { component$ } from '@builder.io/qwik';
 
 export default component$(() => {
-  useStylesScoped$(styles);
-
   return (
     <header>
-      <div class="logo">
-        <a href="https://qwik.builder.io/" target="_blank" title="qwik">
-          <QwikLogo />
-        </a>
+      <div class="grid place-items-center py-5">
+        <img class="inline object-cover w-24 h-24 rounded-full" src="public/images/conair.png" alt="Profile image"/>
+        <h1 class="text-gray-500 text-2xl font-bold py-2 hover:text-zinc-100">
+          Matt Wilder
+        </h1>
       </div>
-      <ul>
-        <li>
-          <a href="https://qwik.builder.io/docs/components/overview/" target="_blank">
-            Docs
-          </a>
-        </li>
-        <li>
-          <a href="https://qwik.builder.io/examples/introduction/hello-world/" target="_blank">
-            Examples
-          </a>
-        </li>
-        <li>
-          <a href="https://qwik.builder.io/tutorial/welcome/overview/" target="_blank">
-            Tutorials
-          </a>
-        </li>
-      </ul>
     </header>
   );
 });
