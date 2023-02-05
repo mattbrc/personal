@@ -17,6 +17,9 @@ export default component$(() => {
             <p><a class="underline" href="https://app.acidgambit.com/">Gambit Training App:</a> Built with next/react, daisyUI, formik/yup, tailwindcss, and supabase.</p>
         </li>
         <li class="py-2">
+            <p><a href="https://www.instagram.com/acidgambit" class="underline">Acid Gambit:</a> Founded company focused on providing training resources for athletes who want to improve their performance. It includes an app with training plans, wellness tracking, nutrition, and more.</p>
+        </li>
+        <li class="py-2">
             <p><a href="https://github.com/mattbrc/gastimate" class="underline">Gastimate:</a> A method of computing gas cost in USD for foundry users. Convert estimated function gas usage to 'USD'. Written in solidity.</p>
         </li>
         <li class="py-2">
