@@ -16,6 +16,30 @@ export const content: Content = {
         {
             id: "01",
             info: "About me"
-        }
+        },
+        {
+            id: "02",
+            info: "Faster, Stronger"
+        },
+        {
+            id: "03",
+            info: "Reading"
+        },
+        {
+            id: "04",
+            info: "Writing"
+        },
+        {
+            id: "05",
+            info: "Work"
+        },
+        {
+            id: "06",
+            info: "Projects"
+        },
+        {
+            id: "07",
+            info: "Connect"
+        },
     ]
 }
