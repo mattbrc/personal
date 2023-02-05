@@ -25,7 +25,7 @@ export default component$(() => {
           <li class="hover:text-zinc-100">
               <div>
                 {/* <p>00. start</p> */}
-                <a href="/03">Writing</a>
+                <a href="/writing">Writing</a>
               </div>
           </li>
           <li class="hover:text-zinc-100">
@@ -35,7 +35,7 @@ export default component$(() => {
           </li>
           <li class="hover:text-zinc-100">
               <div>
-                <a href="/05">Projects</a>
+                <a href="/projects">Projects</a>
               </div>
           </li>
           <li class="hover:text-zinc-100">
