@@ -48,6 +48,12 @@ export default component$(() => {
                 {/* <p>00. start</p> */}
                 <a href="/07">Connect</a>
               </div>
+          </li>
+          <li class="hover:text-zinc-100">
+              <div>
+                {/* <p>00. start</p> */}
+                <a href="/08">Site Deets</a>
+              </div>
           </li>   
         </ul>
     </div>
