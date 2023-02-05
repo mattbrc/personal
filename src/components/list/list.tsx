@@ -13,34 +13,29 @@ export default component$(() => {
           </li>
           <li class="hover:text-zinc-100">
               <div>
-                <a href="/01">About</a>
+                {/* <p>00. start</p> */}
+                <a href="/01">Faster, Stronger</a>
+              </div>
+          </li>
+          <li class="hover:text-zinc-100">
+              <div>
+                <a href="/02">Reading</a>
               </div>
           </li>
           <li class="hover:text-zinc-100">
               <div>
                 {/* <p>00. start</p> */}
-                <a href="/02">Faster, Stronger</a>
+                <a href="/03">Writing</a>
               </div>
           </li>
           <li class="hover:text-zinc-100">
               <div>
-                <a href="/03">Reading</a>
+                <a href="/04">Work</a>
               </div>
           </li>
           <li class="hover:text-zinc-100">
               <div>
-                {/* <p>00. start</p> */}
-                <a href="/04">Writing</a>
-              </div>
-          </li>
-          <li class="hover:text-zinc-100">
-              <div>
-                <a href="/05">Work</a>
-              </div>
-          </li>
-          <li class="hover:text-zinc-100">
-              <div>
-                <a href="/06">Projects</a>
+                <a href="/05">Projects</a>
               </div>
           </li>
           <li class="hover:text-zinc-100">

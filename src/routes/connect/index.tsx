@@ -4,6 +4,9 @@ export default component$(() => {
  
   return (
     <div class="text-gray-500">
+      <div class="pb-2 text-sm text-gray-500">
+        <a href="/" class="text-sm underline">Home</a> / Connect
+      </div>
       <p class="text-4xl font-bold text-zinc-100">Connect</p>
       <ul>
         <li class="pt-5 underline py-1 hover:text-zinc-100">

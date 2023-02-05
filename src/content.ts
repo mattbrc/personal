@@ -17,36 +17,31 @@ export const content: Content = {
         },
         {
             id: "01",
-            info: "About",
-            heading: "About",
-        },
-        {
-            id: "02",
             info: "Faster, Stronger",
             heading: "Faster, Stronger"
         },
         {
-            id: "03",
+            id: "02",
             info: "Reading",
             heading: "Reading"
         },
         {
-            id: "04",
+            id: "03",
             info: "Writing",
             heading: "Writing"
         },
         {
-            id: "05",
+            id: "04",
             info: "Work",
             heading: "Work",
         },
         {
-            id: "06",
+            id: "05",
             info: "Projects",
             heading: "Projects"
         },
         {
-            id: "07",
+            id: "06",
             info: "Connect",
             heading: "Connect"
         }
