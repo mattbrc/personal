@@ -30,7 +30,7 @@ export default component$(() => {
                 <p><a class="underline" href="https://github.com/mattbrc/sudoswap-vis">SudoAMM Vis:</a> Visualization using the Graph, React, and Apollo for sudoswap.</p>
             </li>
             <li class="py-2">
-                <p><a href="https://github.com/mattbrc/lens-stani" class="underline">Lens Auth:</a> Simple authorization tool for lens protocol to verify specific .lens accounts. Created in response to <a href="https://twitter.com/StaniKulechov/status/1534587764708196353" class="underline">@StaniKulechov</a> in less than &gt;24hrs. Live deployment <a class="underline" href="https://lens-stani-krc8ez0b3-acid-gambit.vercel.app/">here</a>.</p>
+                <p><a href="https://github.com/mattbrc/lens-stani" class="underline">Lens Auth:</a> Simple authorization tool for lens protocol to verify specific .lens accounts. Created in response to <a href="https://twitter.com/StaniKulechov/status/1534587764708196353" class="underline">@StaniKulechov</a> in less than 24hrs. Live deployment <a class="underline" href="https://lens-stani-krc8ez0b3-acid-gambit.vercel.app/">here</a>.</p>
             </li>
             <li class="py-2">
                 <p>Easy CAS: Electrical Eng capstone; campus wide access control and class accountability using school wifi, raspberry pi, magstripe readers, and student ID cards.</p>
