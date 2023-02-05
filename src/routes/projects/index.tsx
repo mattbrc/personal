@@ -8,7 +8,7 @@ export default component$(() => {
         <a href="/" class="text-sm underline">Home</a> &gt; Projects
       </div>
       <p class="text-4xl font-bold">Projects</p>
-      <p>I obsessed with learning new technologies and improving my skills in current tech. I currently enjoy working with solidity and foundry, next, react, and typescript</p>
+      <p>I'm obsessed with learning new technologies and improving my skills in current tech. I currently enjoy working with solidity and foundry, next, react, and typescript</p>
       <ul class="list-outside list-disc ml-6 text-zinc-100 font-medium">
         <li class="py-2">
             <p><a class="underline" href="https://github.com/mattbrc/personal">This Website:</a> Built with qwik, typescript, tailwindcss.</p>
