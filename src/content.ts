@@ -38,7 +38,7 @@ export const content: Content = {
         {
             id: "05",
             info: "Projects",
-            heading: "Projects"
+            heading: "Projects."
         },
         {
             id: "06",
