@@ -8,7 +8,8 @@ export default component$(() => {
         <a href="/" class="text-sm underline">Home</a> &gt; Cookbook
       </div>
       <p class="text-4xl font-bold">Cookbook</p>
-      <p class="pt-5 text-xl">Source of resources I've found helpful</p>
+      <p class="pt-5 text-xl">Solidity</p>
+      <p>Frontend</p>
       <p>...</p>
     </div>
   );
