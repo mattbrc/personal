@@ -44,6 +44,11 @@ export default component$(() => {
             </div>
           </li>
           <li class="hover:text-zinc-100">
+            <div>
+              <a href="/training">Training</a>
+            </div>
+          </li>
+          <li class="hover:text-zinc-100">
               <div>
                 {/* <p>00. start</p> */}
                 <a href="/connect">Connect</a>
