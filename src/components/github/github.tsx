@@ -25,22 +25,6 @@ export default component$(() => {
           onPending={() => <>Loading...</>}
           onRejected={(error) => <>Error: {error.message}</>}
           onResolved={(repos) => (
-            // <div class="grid grid-cols-2">
-            //   <ul class="list-outside list-disc ml-6 text-zinc-100 font-medium">
-            //     {repos.map((repo, index) => (
-            //       <li
-            //         class="text-sm underline py-1"
-            //         style={`grid-row: ${
-            //           Math.floor(index / 2) + 1
-            //         }; grid-column: ${(index % 2) + 1};`}
-            //       >
-            //         <a href={`https://github.com/${github.org}/${repo}`}>
-            //           {repo}
-            //         </a>
-            //       </li>
-            //     ))}
-            //   </ul>
-            // </div>
             <div class="grid grid-cols-2">
               {repos.map((repo, index) => (
                 <li

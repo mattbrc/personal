@@ -1,6 +1,4 @@
 import { component$ } from "@builder.io/qwik";
-// import type { RequestHandler } from "@builder.io/qwik-city";
-// import Strava from "../../components/strava/strava";
 
 export default component$(() => {
   const test = process.env.test;
@@ -13,8 +11,7 @@ export default component$(() => {
         </a>{" "}
         &gt; Strava
       </div>
-      <p class="text-4xl font-bold">Strava</p>
-      {/* <Strava /> */}
+      <p class="text-4xl font-bold">WIP</p>
     </div>
   );
 });

@@ -6,7 +6,7 @@ const athleteId = 7445195;
 const TOKEN_ENDPOINT = "https://www.strava.com/oauth/token";
 const ATHLETE_ENDPOINT = `https://www.strava.com/api/v3/athletes/${athleteId}`;
 
-const getAccessToken = async () => {
+export const getAccessToken = async () => {
   const body = JSON.stringify({
     client_id: clientId,
     client_secret: clientSecret,
