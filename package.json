@@ -9,9 +9,9 @@
     "build": "qwik build",
     "build.client": "vite build",
     "build.preview": "vite build --ssr src/entry.preview.tsx",
-    "build.server": "vite build -c adaptors/vercel-edge/vite.config.ts",
+    "build.server": "vite build -c adaptors/express/vite.config.ts",
     "build.types": "tsc --incremental --noEmit",
-    "deploy": "vercel deploy",
+    "deploy": "node server/entry.express",
     "dev": "vite --mode ssr",
     "dev.debug": "node --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --force",
     "fmt": "prettier --write .",
@@ -24,25 +24,30 @@
   "devDependencies": {
     "@builder.io/qwik": "0.17.4",
     "@builder.io/qwik-city": "0.0.128",
+    "@types/compression": "^1.7.2",
     "@types/eslint": "8.21.0",
+    "@types/express": "4.17.13",
     "@types/node": "^18.11.18",
     "@types/node-fetch": "latest",
     "@typescript-eslint/eslint-plugin": "5.50.0",
     "@typescript-eslint/parser": "5.50.0",
     "autoprefixer": "10.4.11",
+    "compression": "^1.7.4",
     "eslint": "8.33.0",
     "eslint-plugin-qwik": "0.17.4",
+    "express": "4.17.3",
     "node-fetch": "3.3.0",
     "postcss": "^8.4.16",
     "prettier": "2.8.3",
     "tailwindcss": "^3.1.8",
-    "typescript": "4.9.5",
+    "typescript": "^4.9.5",
     "undici": "5.16.0",
     "vercel": "^28.4.17",
     "vite": "4.0.4",
     "vite-tsconfig-paths": "3.5.0"
   },
   "dependencies": {
-    "daisyui": "^2.50.0"
+    "daisyui": "^2.50.0",
+    "dotenv": "^16.0.3"
   }
 }

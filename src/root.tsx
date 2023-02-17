@@ -1,8 +1,14 @@
-import { component$, useStyles$ } from '@builder.io/qwik';
-import { QwikCityProvider, RouterOutlet, ServiceWorkerRegister } from '@builder.io/qwik-city';
-import { RouterHead } from './components/router-head/router-head';
+import { component$, useStyles$ } from "@builder.io/qwik";
+import {
+  QwikCityProvider,
+  RouterOutlet,
+  ServiceWorkerRegister,
+} from "@builder.io/qwik-city";
+import { RouterHead } from "./components/router-head/router-head";
 
-import globalStyles from './global.css?inline';
+import globalStyles from "./global.css?inline";
+import * as dotenv from "dotenv"; // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
+dotenv.config();
 
 export default component$(() => {
   /**
@@ -17,7 +23,10 @@ export default component$(() => {
     <QwikCityProvider>
       <head>
         <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"></meta>
+        <meta
+          name="viewport"
+          content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        ></meta>
         <link rel="manifest" href="/manifest.json" />
         <RouterHead />
       </head>
