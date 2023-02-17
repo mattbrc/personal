@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import Github from "../../components/github/github";
+// import Github from "../../components/github/github";
 
 export default component$(() => {
   return (
@@ -103,7 +103,7 @@ export default component$(() => {
           </li>
         </ul>
       </div>
-      <Github />
+      {/* <Github /> */}
     </div>
   );
 });

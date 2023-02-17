@@ -11,7 +11,8 @@ export default component$(() => {
         </a>{" "}
         &gt; Strava
       </div>
-      <p class="text-4xl font-bold">WIP</p>
+      <p class="text-4xl font-bold">Strava</p>
+      <p>WIP</p>
     </div>
   );
 });

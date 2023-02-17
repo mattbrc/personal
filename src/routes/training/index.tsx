@@ -9,7 +9,8 @@ export default component$(() => {
         </a>{" "}
         &gt; Training
       </div>
-      <p class="text-4xl font-bold">WIP</p>
+      <p class="text-4xl font-bold">Training</p>
+      <p>WIP</p>
     </div>
   );
 });
