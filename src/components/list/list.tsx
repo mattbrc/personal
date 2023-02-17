@@ -18,7 +18,28 @@ export default component$(() => {
         </li>
         <li class="hover:text-zinc-100">
           <div>
+            <a href="/cookbook">Cookbook</a>
+          </div>
+        </li>
+        <li class="hover:text-zinc-100">
+          <div>
+            {/* <p>00. start</p> */}
+            <a href="/connect">Connect</a>
+          </div>
+        </li>
+        <li class="hover:text-zinc-100">
+          <div>
+            <a href="/projects">Projects</a>
+          </div>
+        </li>
+        <li class="hover:text-zinc-100">
+          <div>
             <a href="/02">Reading</a>
+          </div>
+        </li>
+        <li class="hover:text-zinc-100">
+          <div>
+            <a href="/training">Training</a>
           </div>
         </li>
         <li class="hover:text-zinc-100">
@@ -29,33 +50,12 @@ export default component$(() => {
         </li>
         <li class="hover:text-zinc-100">
           <div>
+            <a href="/strava">Strava</a>
+          </div>
+        </li>
+        <li class="hover:text-zinc-100">
+          <div>
             <a href="/04">Work</a>
-          </div>
-        </li>
-        <li class="hover:text-zinc-100">
-          <div>
-            <a href="/projects">Projects</a>
-          </div>
-        </li>
-        <li class="hover:text-zinc-100">
-          <div>
-            <a href="/cookbook">Cookbook</a>
-          </div>
-        </li>
-        <li class="hover:text-zinc-100">
-          <div>
-            <a href="/training">Training</a>
-          </div>
-        </li>
-        <li class="hover:text-zinc-100">
-          <div>
-            <a href="/training">Strava</a>
-          </div>
-        </li>
-        <li class="hover:text-zinc-100">
-          <div>
-            {/* <p>00. start</p> */}
-            <a href="/connect">Connect</a>
           </div>
         </li>
       </ul>
