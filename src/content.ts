@@ -45,10 +45,5 @@ export const content: Content = {
             info: "Connect",
             heading: "Connect"
         },
-        {
-          id: "07",
-          info: "dklajdf",
-          heading: "kaljdf"
-        },
     ]
 }

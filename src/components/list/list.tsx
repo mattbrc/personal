@@ -6,24 +6,16 @@ export default component$(() => {
       <ul>
         <li class="hover:text-zinc-100">
           <div>
-            {/* <p>00. start</p> */}
-            <a href="/00">Start Here</a>
+            <a href="/start">Start Here</a>
           </div>
         </li>
         <li class="hover:text-zinc-100">
           <div>
-            {/* <p>00. start</p> */}
-            <a href="/01">Faster, Stronger</a>
+            <a href="/faster">Faster, Stronger</a>
           </div>
         </li>
         <li class="hover:text-zinc-100">
           <div>
-            <a href="/cookbook">Cookbook</a>
-          </div>
-        </li>
-        <li class="hover:text-zinc-100">
-          <div>
-            {/* <p>00. start</p> */}
             <a href="/connect">Connect</a>
           </div>
         </li>
@@ -32,25 +24,24 @@ export default component$(() => {
             <a href="/projects">Projects</a>
           </div>
         </li>
-        <li class="hover:text-zinc-100">
+        {/* <li class="hover:text-zinc-100">
           <div>
             <a href="/02">Reading</a>
           </div>
-        </li>
-        <li class="hover:text-zinc-100">
+        </li> */}
+        {/* <li class="hover:text-zinc-100">
           <div>
             <a href="/training">Training</a>
           </div>
-        </li>
+        </li> */}
         <li class="hover:text-zinc-100">
           <div>
-            {/* <p>00. start</p> */}
             <a href="/writing">Writing</a>
           </div>
         </li>
         <li class="hover:text-zinc-100">
           <div>
-            <a href="/04">Work</a>
+            <a href="/work">Work</a>
           </div>
         </li>
       </ul>

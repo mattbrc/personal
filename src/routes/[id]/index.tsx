@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import { useLocation } from "@builder.io/qwik-city";
-import { content } from "../../../content";
+import { content } from "../../content";
 
 export default component$(() => {
   const location = useLocation();
@@ -15,7 +15,6 @@ export default component$(() => {
           Home
         </a>{" "}
         &gt; {heading}
-        <a>{id}</a>
       </div>
       <p class="text-4xl font-bold">{heading}</p>
       <p class="pt-5 text-xl">{things}</p>
