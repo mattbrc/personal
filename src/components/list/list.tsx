@@ -50,11 +50,6 @@ export default component$(() => {
         </li>
         <li class="hover:text-zinc-100">
           <div>
-            <a href="/strava">Strava</a>
-          </div>
-        </li>
-        <li class="hover:text-zinc-100">
-          <div>
             <a href="/04">Work</a>
           </div>
         </li>
