@@ -102,6 +102,16 @@ export default component$(() => {
               readers, and student ID cards.
             </p>
           </li>
+          <li class="py-2">
+            <p>
+              I briefly worked for the NSA where I researched electromagnetic
+              theory, design, and fabrication of rectangular micro-strip
+              antennas using HFSS, AutoCad, and 3D-etching at the University of
+              Maryland LPS and Fort Meade. I also developed internal tooling
+              using Python to increase antenna design efficiency and reduce
+              testing time.
+            </p>
+          </li>
         </ul>
       </div>
       {/* <Github /> */}
