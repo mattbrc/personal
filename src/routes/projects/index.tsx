@@ -10,7 +10,7 @@ export default component$(() => {
         </a>{" "}
         &gt; Projects
       </div>
-      <p class="text-4xl font-bold">Projects</p>
+      <p class="text-3xl font-bold">Projects</p>
       <div class="pt-5 text-xl">
         <p>
           I'm obsessed with learning new technologies and improving my skills in
