@@ -32,7 +32,7 @@ export default component$(() => {
                 Gambit Training App:
               </a>{" "}
               Built with next/react, daisyUI, formik/yup, tailwindcss, and
-              supabase.
+              supabase (beta).
             </p>
           </li>
           <li class="py-2">
@@ -42,7 +42,8 @@ export default component$(() => {
               </a>{" "}
               Founded company focused on providing training resources for
               athletes who want to improve their performance. It includes an app
-              with training plans, wellness tracking, nutrition, and more.
+              with training plans, wellness tracking, nutrition, and more. I've
+              also grown the instagram to over 11k followers.
             </p>
           </li>
           <li class="py-2">
