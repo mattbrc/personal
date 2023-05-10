@@ -5,10 +5,10 @@ export default component$(() => {
   return (
     <div class="text-zinc-100">
       <div class="pb-2 text-sm text-gray-500">
-        <a href="/" class="text-sm underline">
+        <a href="/" class="text-sm underline hover:text-zinc-100">
           Home
         </a>{" "}
-        &gt; Projects
+        <span>&gt; Projects</span>
       </div>
       <p class="text-3xl font-bold">Projects</p>
       <div class="pt-5 text-xl">

@@ -4,10 +4,10 @@ export default component$(() => {
   return (
     <div class="text-zinc-100">
       <div class="pb-2 text-sm text-gray-500">
-        <a href="/" class="text-sm underline">
+        <a href="/" class="text-sm underline hover:text-zinc-100">
           Home
         </a>{" "}
-        &gt; Work
+        <span>&gt; Work</span>
       </div>
       <p class="text-4xl font-bold">Work</p>
       <p class="pt-5 text-xl">

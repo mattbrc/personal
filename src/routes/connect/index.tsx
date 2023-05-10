@@ -1,11 +1,13 @@
 import { component$ } from "@builder.io/qwik";
 
 export default component$(() => {
- 
   return (
     <div class="text-gray-500">
-      <div class="pb-2 text-sm text-gray-500">
-        <a href="/" class="text-sm underline">Home</a> &gt; Connect
+      <div class="pb-2 text-sm">
+        <a href="/" class="text-sm underline hover:text-zinc-100">
+          Home
+        </a>{" "}
+        <span>&gt; Connect</span>
       </div>
       <p class="text-4xl font-bold text-zinc-100">Connect</p>
       <ul>
@@ -17,6 +19,9 @@ export default component$(() => {
         </li>
         <li class="underline py-1 hover:text-zinc-100">
           <a href="https://www.linkedin.com/in/mattwilder1/">LinkedIn</a>
+        </li>
+        <li class="underline py-1 hover:text-zinc-100">
+          <a href="https://acidgambit.substack.com/">Substack</a>
         </li>
         <li class="underline py-1 hover:text-zinc-100">
           <a href="https://www.instagram.com/themattbrc">Instagram</a>
