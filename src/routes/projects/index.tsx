@@ -14,8 +14,8 @@ export default component$(() => {
       <div class="pt-5 text-xl">
         <p>
           I'm obsessed with learning new technologies and improving my skills in
-          current tech. I currently enjoy working with solidity and foundry,
-          next, react, and typescript
+          current tech. I currently enjoy working with React + TRPC, next,
+          drizzle, and planetscale.
         </p>
         <ul class="list-outside list-disc ml-6 text-zinc-100 font-medium">
           <li class="py-2">
