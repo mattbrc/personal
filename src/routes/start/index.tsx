@@ -16,7 +16,7 @@ export default component$(() => {
         than splatter my beautiful face across the internet. I'm excited by
         making cool things and the intersection of strength training, speed, and
         endurance. This site aims to share some of the things I like doing, have
-        done, and want to do. Built with qwik, typescript, + tailwindcss"
+        done, and want to do. Built with qwik, typescript, + tailwindcss
       </p>
     </div>
   );
