@@ -12,7 +12,7 @@ export default component$(() => {
       <p class="text-4xl font-bold">Work</p>
       <p class="pt-5 text-xl">
         I'm currently an active duty Army Engineer Officer working as a Data
-        Analyst in Washington DC and graduate of Airborne and Ranger schools.
+        Analyst at the Pentagon and graduate of Airborne and Ranger schools.
         Past assignments have included being a platoon leader in the 82nd
         Airborne Division and Deputy Engineer at 10th Special Forces Group.
         Prior to that, I did electromagnetic + antenna design work for the NSA
